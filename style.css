@@ -1,0 +1,33 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.login-form, .register-form {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.login-form h2, .register-form h2 {
+    text-align: center;
+}
+
+.login-form input, .register-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+
+.login-form button, .register-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+}
